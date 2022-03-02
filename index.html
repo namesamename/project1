@@ -4,241 +4,1566 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name='Title' content='SMTOWN &STORE CLONE'>
+	<meta name='Keywords' content='sm, smstore, smshop'>
+	<meta name='Publisher' content='Jieun Lee'>
     <title>SMTOWN &amp;STORE</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper/swiper-bundle-org.css"/>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- <script src="js/swiper/swiper-bundle.js"></script> -->
+    <script src="js/swiper/swiper-bundle-org.js"></script>
+    <script src="js/index_script.js" defer></script>
 </head>
 <body>
+    <ul id="skip" class="ir_so">
+		<li><a href="#header">헤더 바로가기</a></li>
+		<li><a href="#nav">메뉴 바로가기</a></li>
+		<li><a href="#content">내용 바로가기</a></li>
+		<li><a href="#footer">최하단 바로가기</a></li>
+	</ul>
     <div id="wrap">
         <div id="header">
             <div id="headerInner">
-                <div class="header-gnb">
-                    <ul>
-                        <li><a href="#">LOGIN</a></li>
-                        <li><a href="#">JOIN</a></li>
-                        <li class="gnb-lan"><a href="#">KOR</a>
-                            <ul>
-                                <li><a href="#">ENG</a></li>
-                                <li><a href="#">JPN</a></li>
-                                <li><a href="#">CHN</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="header-nav">
-                    <ul>
-                        <li class="nav-celeb"><a href="#">CELEB</a>
-                            <div class="celeb-flip">
-                                <ul>
-                                    <li><a href="#">BoA<span></span></a></li>
-                                    <li><a href="#">TVXQ!<span></span></a></li>
-                                    <li><a href="#">SUPER JUNIOR<span></span></a></li>
-                                    <li><a href="#">GIRLS’ GENERATION<span></span></a></li>
-                                    <li><a href="#">SHINee<span></span></a></li>
-                                    <li><a href="#">f(x)<span></span></a></li>
-                                    <li><a href="#">EXO<span></span></a></li>
-                                    <li><a href="#">RED VELVET<span></span></a></li>
-                                    <li><a href="#">NCT<span></span></a></li>
-                                    <li><a href="#">WayV<span></span></a></li>
-                                    <li><a href="#">SuperM<span></span></a></li>
-                                    <li><a href="#">aespa<span></span></a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-product"><a href="#">PRODUCT</a>
-                            <div class="product-flip">
-                                <ul>
-                                    <li>
-                                        <dl>
-                                            <dt><a href="#">MUSIC</a></dt>
-                                            <dd><a href="#">CD<span></span></a></dd>
-                                            <dd><a href="#">DVD<span></span></a></dd>
-                                            <dd><a href="#">etc.<span></span></a></dd>
-                                            <dd>&nbsp;</dd>
-                                        </dl>
-                                        <dl>
-                                            <dt><a href="#">PHOTO</a></dt>
-                                            <dd><a href="#">Printed<span></span></a></dd>
-                                            <dd><a href="#">Photo Book<span></span></a></dd>
-                                            <dd>&nbsp;</dd>
-                                        </dl>
-                                        <dl>
-                                            <dt><a href="#">CONCERT</a></dt>
-                                            <dd><a href="#">Official Fanlight<span></span></a></dd>
-                                            <dd><a href="#">Concert Goods<span></span></a></dd>
-                                        </dl>
-                                    </li>
-                                    <li>
-                                        <dl>
-                                            <dt><a href="#">LIVING</a></dt>
-                                            <dd><a href="#">Home<span></span></a></dd>
-                                            <dd><a href="#">Kitchen<span></span></a></dd>
-                                            <dd><a href="#">F&B<span></span></a></dd>
-                                            <dd><a href="#">Tech<span></span></a></dd>
-                                            <dd><a href="#">Book<span></span></a></dd>
-                                            <dd><a href="#">Pet<span></span></a></dd>
-                                        </dl>
-                                    </li>
-                                    <li>
-                                        <dl>
-                                            <dt><a href="#">BEAUTY</a></dt>
-                                            <dd><a href="#">Skin Care<span></span></a></dd>
-                                            <dd><a href="#">Make Up<span></span></a></dd>
-                                            <dd><a href="#">Cleansing<span></span></a></dd>
-                                            <dd><a href="#">Body & Hair<span></span></a></dd>
-                                            <dd><a href="#">Pack & Masks<span></span></a></dd>
-                                            <dd><a href="#">Perfume<span></span></a></dd>
-                                            <dd><a href="#">Tool<span></span></a></dd>
-                                            <dd><a href="#">Men’s<span></span></a></dd>
-                                        </dl>
-                                    </li>
-                                    <li>
-                                        <dl>
-                                            <dt><a href="#">STATIONERY</a></dt>
-                                            <dd><a href="#">Note<span></span></a></dd>
-                                            <dd><a href="#">Office<span></span></a></dd>
-                                            <dd><a href="#">Pen<span></span></a></dd>
-                                            <dd><a href="#">Deco<span></span></a></dd>
-                                            <dd><a href="#">Binder<span></span></a></dd>
-                                            <dd><a href="#">Toy<span></span></a></dd>
-                                        </dl>
-                                    </li>
-                                    <li>
-                                        <dl>
-                                            <dt><a href="#">FASHION</a></dt>
-                                            <dd><a href="#">Clothing<span></span></a></dd>
-                                            <dd><a href="#">Acc<span></span></a></dd>
-                                            <dd><a href="#">Jewelry<span></span></a></dd>
-                                            <dd>&nbsp;</dd>
-                                        </dl>
-                                        <dl>
-                                            <dt><a href="#">CUSTOMIZING</a></dt>
-                                            <dd><a href="#">Phone Case<span></span></a></dd>
-                                            <dd><a href="#">Fashion<span></span></a></dd>
-                                            <dd><a href="#">Acc<span></span></a></dd>
-                                        </dl>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="#">&P!CK</a></li>
-                        <li><a href="#">EVENT</a></li>
-                        <li><a href="#">META</a></li>
-                    </ul>
-                    <div class="logo"><a href="#"><img src="./img/header/Logo_Default.svg" alt="logo"></a>
-                    </div>
-                    <div class="member">
+                <div class="header-default" id="nav">
+                    <div class="header-banner"></div>
+                    <div class="header-gnb">
                         <ul>
-                            <li class="mypage"><a href="#"><img src="./img/header/M_My.svg" alt="mypage"></a></li>
-                            <li class="search"><a href="#"><img src="./img/header/M_Search.svg" alt="search"></a></li>
-                            <li class="cart"><a href="#"><img src="./img/header/M_Cart.svg" alt="cart"></a></li>
-                            <li class="collect"><a href="#"><img src="./img/header/M_Collection.svg" alt="collect"></a></li>
+                            <li><a href="./login.html">LOGIN</a></li>
+                            <li><a href="#">JOIN</a></li>
+                            <li class="gnb-lan">
+                                <a href="#">KOR</a>
+                                <div class="lan">
+                                    <a href="#">ENG</a>
+                                    <a href="#">JPN</a>
+                                    <a href="#">CHN</a>
+                                </div>
+                            </li>
                         </ul>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div id="banner">
-            <div class="slide">
-                <ul>
-                    <!-- <li><a href="#"><img src="./img/main/main01.jpg" alt="banner1"></a></li> -->
-                    <li><a href="#"><p class="slide-text">NCT The 3rd Album - ‘Universe’ (M/V Track ver.) MD Collection<span></span></p><img src="./img/main/main02.jpg" alt="banner2"></a></li>
-                    <li><a href="#"><img src="./img/main/main03.jpg" alt="banner3"></a></li>
-                    <li><a href="#"><img src="./img/main/main04.jpg" alt="banner4"></a></li>
-                    <li><a href="#"><img src="./img/main/main05.jpg" alt="banner5"></a></li>
-                    <li><a href="#"><img src="./img/main/main06.jpg" alt="banner6"></a></li>
-                    <li><a href="#"><img src="./img/main/main07.jpg" alt="banner7"></a></li>
-                    <li><a href="#"><img src="./img/main/main08.jpg" alt="banner8"></a></li>
-                    <li><a href="#"><img src="./img/main/main09.jpg" alt="banner9"></a></li> 
-                </ul>
-                <div class="slide-arrow">
-                    <div class="slide-arrow-left"></div>
-                    <div class="slide-arrow-right"></div>
-                </div>
-                <div class="slide-circle">  
-                    <ul>
-                        <li><a href="#"><span></span></a></li>
-                        <li><a href="#"><span></span></a></li>
-                        <li><a href="#"><span></span></a></li>
-                        <li><a href="#"><span></span></a></li>
-                        <li><a href="#"><span></span></a></li>
-                        <li><a href="#"><span></span></a></li>
-                        <li><a href="#"><span></span></a></li>
-                        <li><a href="#"><span></span></a></li>
-                        <li><a href="#"><span></span></a></li>
-                        <li><a href="#"><span></span></a></li>
-                        <li><a href="#"><span></span></a></li>
-                        <li><a href="#"><span></span></a></li>
-                    </ul>
-                </div>
-                <div class="slide-info"><a href="#"><span>자세히 보기</span><img src="./img/btn/arrow_l.gif" alt="info arrow"></a></div>
-            </div>
-        </div>
-        <div id="content">
-            <div class="content-top cf">
-                <div class="content-top-inner cf">
-                    <h1>New Items</h1>
-                    <div class="content-top-slide">
-                        <ul class="cf">
-                            <li><a href="#"><img src="./img/new_items/newitems01.jpg" alt="newitem1"></a></li>
-                            <li><a href="#"><img src="./img/new_items/newitems02.jpg" alt="newitem2"></a></li>
-                            <li><a href="#"><img src="./img/new_items/newitems03.jpg" alt="newitem3"></a></li>
-                            <li><a href="#"><img src="./img/new_items/newitems04.jpg" alt="newitem4"></a></li>
-                            <li><a href="#"><img src="./img/new_items/newitems05.jpg" alt="newitem5"></a></li>
-                            <li><a href="#"><img src="./img/new_items/newitems06.jpg" alt="newitem6"></a></li>
-                            <li><a href="#"><img src="./img/new_items/newitems07.jpg" alt="newitem7"></a></li>
-                            <li><a href="#"><img src="./img/new_items/newitems08.jpg" alt="newitem8"></a></li>
-                            <li><a href="#"><img src="./img/new_items/newitems09.jpg" alt="newitem9"></a></li>
-                            <li><a href="#"><img src="./img/new_items/newitems10.jpg" alt="newitem10"></a></li>
-                        </ul>
-                    </div>
-                    <div class="content-top-arrow">
-                        <div class="content-top-arrow-left"></div>
-                        <div class="content-top-arrow-right"></div>
-                    </div>
-                    <div class="content-top-extra">
-                        <div class="content-top-border">
-                            <span class="border-active"></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                    <div class="header-nav-wrap">
+                        <div class="header-nav">
+                            <ul class="menu cf">
+                                <li class="nav-celeb"><a href="./celeb.html">CELEB</a></li>
+                                <li class="nav-product"><a href="./product.html">PRODUCT</a></li>
+                                <li><a href="./pick.html">&P!CK</a></li>
+                                <li><a href="./event.html">EVENT</a></li>
+                                <li><a href="./meta.html">META</a></li>
+                            </ul>
+                            <div class="logo"><a href="#"><img src="./img/header/W/Logo_Default.svg" alt="logo"></a>
+                            </div>
+                            <div class="member">
+                                <ul>
+                                    <li class="mypage"><a href="./login.html"><img src="./img/header/W/M_My.svg" alt="mypage"></a></li>
+                                    <li class="search"><a href="#"><img src="./img/header/W/M_Search.svg" alt="search"></a></li>
+                                    <li class="cart"><a href="#"><img src="./img/header/W/M_Cart.svg" alt="cart"></a></li>
+                                    <li class="collect"><a href="#"><img src="./img/header/W/M_Collection.svg" alt="collect"></a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="content-top-info"><a href="#"><span>전체보기</span><img src="./img/btn/arrow_s.jpg" alt="info arrow"></a></div>
                     </div>
                 </div>
+                <div class="header-hide">
+                    <div class="header-wrap">
+                        <div class="header-gnb">
+                            <ul>
+                                <li><a href="./login.html">LOGIN</a></li>
+                                <li><a href="#">JOIN</a></li>
+                                <li class="gnb-lan">
+                                    <a href="#">KOR</a>
+                                    <div class="lan">
+                                        <a href="#">ENG</a>
+                                        <a href="#">JPN</a>
+                                        <a href="#">CHN</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header-nav-wrap">
+                            <div class="header-nav">
+                                <ul class="menu cf">
+                                    <li class="nav-celeb">
+                                        <a href="./celeb.html">CELEB</a>
+                                        <div class="celeb-flip">
+                                            <ul>
+                                                <li><a href="#box01">BoA<span></span></a></li>
+                                                <li><a href="#box02">TVXQ!<span></span></a></li>
+                                                <li><a href="#box03">SUPER JUNIOR<span></span></a></li>
+                                                <li><a href="#box04">GIRLS’ GENERATION<span></span></a></li>
+                                                <li><a href="#box05">SHINee<span></span></a></li>
+                                                <li><a href="#box06">f(x)<span></span></a></li>
+                                                <li><a href="#box07">EXO<span></span></a></li>
+                                                <li><a href="#box08">RED VELVET<span></span></a></li>
+                                                <li><a href="#box09">NCT<span></span></a></li>
+                                                <li><a href="#box10">WayV<span></span></a></li>
+                                                <li><a href="#box11">SuperM<span></span></a></li>
+                                                <li><a href="#box12">aespa<span></span></a></li>
+                                            </ul>
+                                            <div class="album-boxs">
+                                                <div class="album-box" id="box01">
+                                                    <div class="album-img">
+                                                        <img src="./img/box/boa.png" alt="boa">
+                                                    </div>
+                                                    <div class="album-title">
+                                                        <div class="small-title">BoA The 10th Album</div>
+                                                        <div class="large-title">BETTER</div>
+                                                        <div class="info">자세히 보기<img src="./img/btn/celeb_album_arrow.png" alt="infoarrow">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="album-box" id="box02">
+                                                    <div class="album-img">
+                                                        <img src="./img/box/tvxq.png" alt="tvxq">
+                                                    </div>
+                                                    <div class="album-title">
+                                                        <div class="small-title">MAX CHANGMIN</div>
+                                                        <div class="large-title">The 2nd Mini Album <br> Devil</div>
+                                                        <div class="info">자세히 보기<img src="./img/btn/celeb_album_arrow.png" alt="infoarrow">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="album-box" id="box03">
+                                                    <div class="album-img">
+                                                        <img src="./img/box/sj.png" alt="sj">
+                                                    </div>
+                                                    <div class="album-title">
+                                                        <div class="small-title">KYUHYUN</div>
+                                                        <div class="large-title">The 4th Mini Album <br> 연애소설</div>
+                                                        <div class="info">자세히 보기<img src="./img/btn/celeb_album_arrow.png" alt="infoarrow">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="album-box" id="box04">
+                                                    <div class="album-img">
+                                                        <img src="./img/box/gg.png" alt="gg">
+                                                    </div>
+                                                    <div class="album-title">
+                                                        <div class="small-title">The 3rd Album</div>
+                                                        <div class="large-title">INVU</div>
+                                                        <div class="info">자세히 보기<img src="./img/btn/celeb_album_arrow.png" alt="infoarrow">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="album-box" id="box05">
+                                                    <div class="album-img">
+                                                        <img src="./img/box/shinee.png" alt="shinee">
+                                                    </div>
+                                                    <div class="album-title">
+                                                        <div class="small-title">KEY</div>
+                                                        <div class="large-title">The 1st Mini Album <br> BAD LOVE</div>
+                                                        <div class="info">자세히 보기<img src="./img/btn/celeb_album_arrow.png" alt="infoarrow">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="album-box" id="box06">
+                                                    <div class="album-img">
+                                                        <img src="./img/box/fx.png" alt="fx">
+                                                    </div>
+                                                    <div class="album-title">
+                                                        <div class="small-title">The 4th Album</div>
+                                                        <div class="large-title">4 Walls</div>
+                                                        <div class="info">자세히 보기<img src="./img/btn/celeb_album_arrow.png" alt="infoarrow">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="album-box" id="box07">
+                                                    <div class="album-img">
+                                                        <img src="./img/box/exo.png" alt="exo">
+                                                    </div>
+                                                    <div class="album-title">
+                                                        <div class="small-title">KAI</div>
+                                                        <div class="large-title">The 2nd Mini Album <br> Peaches</div>
+                                                        <div class="info">자세히 보기<img src="./img/btn/celeb_album_arrow.png" alt="infoarrow">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="album-box" id="box08">
+                                                    <div class="album-img">
+                                                        <img src="./img/box/rv.png" alt="rv">
+                                                    </div>
+                                                    <div class="album-title">
+                                                        <div class="small-title">RedVelvet</div>
+                                                        <div class="large-title">The 6th Mini Album <br> Queendom</div>
+                                                        <div class="info">자세히 보기<img src="./img/btn/celeb_album_arrow.png" alt="infoarrow">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="album-box" id="box09">
+                                                    <div class="album-img">
+                                                        <img src="./img/box/nct.png" alt="nct">
+                                                    </div>
+                                                    <div class="album-title">
+                                                        <div class="small-title">NCT</div>
+                                                        <div class="large-title">The 3rd Album <br> Universe</div>
+                                                        <div class="info">자세히 보기<img src="./img/btn/celeb_album_arrow.png" alt="infoarrow">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="album-box" id="box10">
+                                                    <div class="album-img">
+                                                        <img src="./img/box/wayv.png" alt="wayv">
+                                                    </div>
+                                                    <div class="album-title">
+                                                        <div class="small-title">WayV</div>
+                                                        <div class="large-title">The 3rd Mini Album <br> Kick Back</div>
+                                                        <div class="info">자세히 보기<img src="./img/btn/celeb_album_arrow.png" alt="infoarrow">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="album-box" id="box11">
+                                                    <div class="album-img">
+                                                        <img src="./img/box/superm.png" alt="superm">
+                                                    </div>
+                                                    <div class="album-title">
+                                                        <div class="small-title">SuperM</div>
+                                                        <div class="large-title">The 1st Album <br> Super ONE <br> (Random cover ver.)</div>
+                                                        <div class="info">자세히 보기<img src="./img/btn/celeb_album_arrow.png" alt="infoarrow">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="album-box" id="box12">
+                                                    <div class="album-img">
+                                                        <img src="./img/box/aespa.png" alt="aespa">
+                                                    </div>
+                                                    <div class="album-title">
+                                                        <div class="small-title">aespa</div>
+                                                        <div class="large-title">The 1st Mini Album <br> Savage</div>
+                                                        <div class="info">자세히 보기<img src="./img/btn/celeb_album_arrow.png" alt="infoarrow">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-product"><a href="./product.html">PRODUCT</a>
+                                        <div class="product-flip">
+                                            <ul>
+                                                <li>
+                                                    <dl>
+                                                        <dt><a href="#">MUSIC</a></dt>
+                                                        <dd><a href="#">CD<span></span></a></dd>
+                                                        <dd><a href="#">DVD<span></span></a></dd>
+                                                        <dd><a href="#">etc.<span></span></a></dd>
+                                                        <dd>&nbsp;</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt><a href="#">PHOTO</a></dt>
+                                                        <dd><a href="#">Printed<span></span></a></dd>
+                                                        <dd><a href="#">Photo Book<span></span></a></dd>
+                                                        <dd>&nbsp;</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt><a href="#">CONCERT</a></dt>
+                                                        <dd><a href="#">Official Fanlight<span></span></a></dd>
+                                                        <dd><a href="#">Concert Goods<span></span></a></dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt><a href="#">LIVING</a></dt>
+                                                        <dd><a href="#">Home<span></span></a></dd>
+                                                        <dd><a href="#">Kitchen<span></span></a></dd>
+                                                        <dd><a href="#">F&B<span></span></a></dd>
+                                                        <dd><a href="#">Tech<span></span></a></dd>
+                                                        <dd><a href="#">Book<span></span></a></dd>
+                                                        <dd><a href="#">Pet<span></span></a></dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt><a href="#">BEAUTY</a></dt>
+                                                        <dd><a href="#">Skin Care<span></span></a></dd>
+                                                        <dd><a href="#">Make Up<span></span></a></dd>
+                                                        <dd><a href="#">Cleansing<span></span></a></dd>
+                                                        <dd><a href="#">Body & Hair<span></span></a></dd>
+                                                        <dd><a href="#">Pack & Masks<span></span></a></dd>
+                                                        <dd><a href="#">Perfume<span></span></a></dd>
+                                                        <dd><a href="#">Tool<span></span></a></dd>
+                                                        <dd><a href="#">Men’s<span></span></a></dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt><a href="#">STATIONERY</a></dt>
+                                                        <dd><a href="#">Note<span></span></a></dd>
+                                                        <dd><a href="#">Office<span></span></a></dd>
+                                                        <dd><a href="#">Pen<span></span></a></dd>
+                                                        <dd><a href="#">Deco<span></span></a></dd>
+                                                        <dd><a href="#">Binder<span></span></a></dd>
+                                                        <dd><a href="#">Toy<span></span></a></dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt><a href="#">FASHION</a></dt>
+                                                        <dd><a href="#">Clothing<span></span></a></dd>
+                                                        <dd><a href="#">Acc<span></span></a></dd>
+                                                        <dd><a href="#">Jewelry<span></span></a></dd>
+                                                        <dd>&nbsp;</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt><a href="#">CUSTOMIZING</a></dt>
+                                                        <dd><a href="#">Phone Case<span></span></a></dd>
+                                                        <dd><a href="#">Fashion<span></span></a></dd>
+                                                        <dd><a href="#">Acc<span></span></a></dd>
+                                                    </dl>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-pick"><a href="./pick.html">&P!CK</a></li>
+                                    <li class="nav-event"><a href="./event.html">EVENT</a></li>
+                                    <li class="nav-meta"><a href="./meta.html">META</a></li>
+                                </ul>
+                                <div class="logo"><a href="#"><img src="./img/header/B/Logo_Default.svg" alt="logo"></a>
+                                </div>
+                                <div class="member">
+                                    <ul>
+                                        <li class="mypage"><a href="./login.html"><img src="./img/header/B/M_My.svg" alt="mypage"></a></li>
+                                        <li class="search"><a href="#"><img src="./img/header/B/M_Search.svg" alt="search"></a></li>
+                                        <li class="cart"><a href="#"><img src="./img/header/B/M_Cart.svg" alt="cart"></a></li>
+                                        <li class="collect"><a href="#"><img src="./img/header/B/M_Collection.svg" alt="collect"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-effect"></div>
+                </div>
             </div>
-            <div class="content-mid">
-                <div class="content-mid-inner">
-                    <h1>Celeb for You</h1>
-                    <ul class="content-mid-celeb cf">
-                        <li><a href="#">BoA<span></span></a></li>
-                        <li><a href="#">TVXQ!<span></span></a></li>
-                        <li><a href="#">SUPER JUNIOR<span></span></a></li>
-                        <li><a href="#">GIRLS’ GENERATION<span></span></a></li>
-                        <li><a href="#">SHINee<span></span></a></li>
-                        <li><a href="#">f(x)<span></span></a></li>
-                        <br>
-                        <br>
-                        <li><a href="#">EXO<span></span></a></li>
-                        <li><a href="#">RED VELVET<span></span></a></li>
-                        <li><a href="#">NCT<span></span></a></li>
-                        <li><a href="#">WayV<span></span></a></li>
-                        <li><a href="#">SuperM<span></span></a></li>
-                        <li><a href="#">aespa<span></span></a></li>
+        </div>
+        <div class="bg"></div>
+        <div class="main">
+            <div id="banner">
+                <div class="swiper mySwiper slides">
+                    <div class="swiper-wrapper slide-wrapper">
+                        <div class="swiper-slide slide">
+                            <a href="./banner.html">
+                                <div class="slide-text">NCT 'Universe' MD COLLECTION<span></span></div>
+                                <img src="./img/main/main01.jpg" alt="banner1">
+                                <div class="slide-info"><span>자세히 보기</span><img src="./img/btn/arrow_l.gif" alt="info arrow"></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <a href="#">
+                                <div class="slide-text">PHOTO CARD COLLECTION<span></span></div>
+                                <img src="./img/main/main04.jpg" alt="banner4">
+                                <div class="slide-info"><span>자세히 보기</span><img src="./img/btn/arrow_l.gif" alt="info arrow"></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <a href="#">
+                                <div class="slide-text">MAX CHANGMIN - 'Devil' MD COLLECTION<span></span></div>
+                                <img src="./img/main/main03.jpg" alt="banner3">
+                                <div class="slide-info"><span>자세히 보기</span><img src="./img/btn/arrow_l.gif" alt="info arrow"></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <a href="#">
+                                <div class="slide-text">MUSIC NATION SMTOWN META-PASSPORT<span></span></div>
+                                <img src="./img/main/main05.jpg" alt="banner5">
+                                <div class="slide-info"><span>자세히 보기</span><img src="./img/btn/arrow_l.gif" alt="info arrow"></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <a href="#">
+                                <div class="slide-text">TAEYEON - INVU<span></span></div>
+                                <img src="./img/main/main02.jpg" alt="banner2">
+                                <div class="slide-info"><span>자세히 보기</span><img src="./img/btn/arrow_l.gif" alt="info arrow"></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <a href="#">
+                                <div class="slide-text">SEASON'S GREETINGS 2022<span></span></div>
+                                <img src="./img/main/main06.jpg" alt="banner6">
+                                <div class="slide-info"><span>자세히 보기</span><img src="./img/btn/arrow_l.gif" alt="info arrow"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next slide-arrow-right"></div>
+                    <div class="swiper-button-prev slide-arrow-left"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div id="content">
+                <div class="content-s01 cf">
+                    <div class="content-s01-wrap">
+                        <h1>New Items</h1>
+                        <div class="swiper mySwiper s01-slides">
+                            <div class="swiper-wrapper s01-slide-wrapper">
+                                <div class="swiper-slide s01-slide">
+                                    <div class="s01-slide-box">
+                                        <a href="#"><img src="./img/celeb_nct/U_4X6PHOTO.jpg" alt="newitem1"></a>
+                                        <div class="con-rect">
+                                            <div class="con-rect-title"><a href="#"><span class="con-r-a">NCT U</span><span class="con-r-p">4X6 PHOTO + PHOTO CARD SET - Universe</span></a></div>
+                                            <div class="con-rect-price cf"><span class="price">₩ 7,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide s01-slide">
+                                    <div class="s01-slide-box">
+                                        <a href="#"><img src="./img/celeb_nct/U_A4PHOTO.jpg" alt="newitem2"></a>
+                                        <div class="con-rect">
+                                            <div class="con-rect-title"><a href="#"><span class="con-r-a">NCT U</span><span class="con-r-p">A4 PHOTO - Universe</span></a></div>
+                                            <div class="con-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide s01-slide">
+                                    <div class="s01-slide-box">
+                                        <a href="#"><img src="./img/celeb_nct/NCT_IDCARD.jpg" alt="newitem3"></a>
+                                        <div class="con-rect">
+                                            <div class="con-rect-title"><a href="#"><span class="con-r-a">NCT</span><span class="con-r-p">ID CARD + PHOTO CARD SET (RANDOM) - Universe</span></a></div>
+                                            <div class="con-rect-price cf"><span class="price">₩ 8,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide s01-slide">
+                                    <div class="s01-slide-box">
+                                        <a href="#"><img src="./img/celeb_nct/NCT_HOLOGRAM.jpg" alt="newitem4"></a>
+                                        <div class="con-rect">
+                                            <div class="con-rect-title"><a href="#"><span class="con-r-a">NCT</span><span class="con-r-p">POSTCARD + HOLOGRAM PHOTO CARD SET - Universe</span></a></div>
+                                            <div class="con-rect-price cf"><span class="price">₩ 8,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide s01-slide">
+                                    <div class="s01-slide-box">
+                                        <a href="#"><img src="./img/celeb_nct/NCT_A4PHOTO.jpg" alt="newitem5"></a>
+                                        <div class="con-rect">
+                                            <div class="con-rect-title"><a href="#"><span class="con-r-a">NCT</span><span class="con-r-p">A4 PHOTO - Universe</span></a></div>
+                                            <div class="con-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide s01-slide">
+                                    <div class="s01-slide-box">
+                                        <a href="#"><img src="./img/celeb_nct/U_TRADINGCARD.jpg" alt="newitem6"></a>
+                                        <div class="con-rect">
+                                            <div class="con-rect-title"><a href="#"><span class="con-r-a">NCT U</span><span class="con-r-p">TRADING CARD SET (RANDOM) - Universe</span></a></div>
+                                            <div class="con-rect-price cf"><span class="price">₩ 6,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide s01-slide">
+                                    <div class="s01-slide-box">
+                                        <a href="#"><img src="./img/celeb_nct/NCT_BINDER.jpg" alt="newitem7"></a>
+                                        <div class="con-rect">
+                                            <div class="con-rect-title"><a href="#"><span class="con-r-a">NCT</span><span class="con-r-p">BINDER + PHOTO CARD SET - Universe</span></a></div>
+                                            <div class="con-rect-price cf"><span class="price">₩ 25,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide s01-slide">
+                                    <div class="s01-slide-box">
+                                        <a href="#"><img src="./img/celeb_nct/NCT_BINDERINDEXSET.jpg" alt="newitem8"></a>
+                                        <div class="con-rect">
+                                            <div class="con-rect-title"><a href="#"><span class="con-r-a">NCT</span><span class="con-r-p">BINDER INDEX SET - Universe</span></a></div>
+                                            <div class="con-rect-price cf"><span class="price">₩ 10,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide s01-slide">
+                                    <div class="s01-slide-box">
+                                        <a href="#"><img src="./img/celeb_nct/NCT_Universe.jpg" alt="newitem9"></a>
+                                        <div class="con-rect">
+                                            <div class="con-rect-title"><a href="#"><span class="con-r-a">NCT </span><span class="con-r-p">The 3rd Album - Universe (Photobook ver.)</span></a></div>
+                                            <div class="con-rect-price cf"><span class="price">₩ 19,300&nbsp;&nbsp;<del>₩ 23,800</del></span><span class="disprice">19%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide s01-slide">
+                                    <div class="s01-slide-box">
+                                        <a href="#"><img src="./img/celeb_nct/DREAM_SEASONSGREETINGS.jpg" alt="newitem10"></a>
+                                        <div class="con-rect">
+                                            <div class="con-rect-title"><a href="#"><span class="con-r-a">NCT DREAM</span><span class="con-r-p">SEASON'S GREETINGS 2022</span></a></div>
+                                            <div class="con-rect-price cf"><span class="price">₩ 38,000&nbsp;&nbsp;<del>₩ 42,000</del></span><span class="disprice">10%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide s01-slide">
+                                    <div class="s01-slide-box">
+                                        <a href="#"><img src="./img/celeb_nct/DREAM_HOLOGRAM.jpg" alt="newitem11"></a>
+                                        <div class="con-rect">
+                                            <div class="con-rect-title"><a href="#"><span class="con-r-a">NCT DREAM</span><span class="con-r-p">POSTCARD + HOLOGRAM PHOTO CARD SET - Hello Future</span></a></div>
+                                            <div class="con-rect-price cf"><span class="price">₩ 8,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide s01-slide">
+                                    <div class="s01-slide-box">
+                                        <a href="#"><img src="./img/celeb_nct/DREAM_3DLENTICULAR.jpg" alt="newitem12"></a>
+                                        <div class="con-rect">
+                                            <div class="con-rect-title"><a href="#"><span class="con-r-a">NCT DREAM</span><span class="con-r-p">3D LENTICULAR CARD SET - Hello Future</span></a></div>
+                                            <div class="con-rect-price cf"><span class="price">₩ 7,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </div class="s01-slide-box">
+                                </div>
+                            </div>
+                            <div class="s01-extra">
+                                <div class="swiper-pagination"></div>
+                                <div class="content-s01-info"><a href="#"><span>전체보기</span><img src="./img/btn/arrow_s.jpg" alt="info arrow"></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next s01-arrow-right"></div>
+                    <div class="swiper-button-prev s01-arrow-left"></div>
+                </div>
+                <div class="content-s02 cf">
+                    <h2>Celeb for You</h2>
+                    <ul class="content-s02-celeb-t cf">
+                        <li><a href="#prdTab01" class="on" tabindex="1">BoA<span></span></a></li>
+                        <li><a href="#prdTab02" tabindex="3">TVXQ!<span></span></a></li>
+                        <li><a href="#prdTab03" tabindex="5">SUPER JUNIOR<span></span></a></li>
+                        <li><a href="#prdTab04" tabindex="7">GIRLS’ GENERATION<span></span></a></li>
+                        <li><a href="#prdTab05" tabindex="9">SHINee<span></span></a></li>
+                        <li><a href="#prdTab06" tabindex="11">f(x)<span></span></a></li>
                     </ul>
-                    <div class="content-mid-product">
-
+                    <ul class="content-s02-celeb-b cf">
+                        <li><a href="#prdTab07" tabindex="13">EXO<span></span></a></li>
+                        <li><a href="#prdTab08" tabindex="15">RED VELVET<span></span></a></li>
+                        <li><a href="#prdTab09" tabindex="17">NCT<span></span></a></li>
+                        <li><a href="#prdTab10" tabindex="19">WayV<span></span></a></li>
+                        <li><a href="#prdTab11" tabindex="21">SuperM<span></span></a></li>
+                        <li><a href="#prdTab12" tabindex="23">aespa<span></span></a></li>
+                    </ul>
+                    <div class="content-s02-product cf">
+                        <div class="content-s02-prd-t">
+                            <div id="prdTab01" class="prd-tab" tabindex="2">
+                                <ul>
+                                    <li><div class="prd-cir-area"><div class="prd-cir"><a href="#">BoA<img src="./img/btn/celeb_listmain_arrow.png" alt="product arrow"></a></div></div></li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_boa/boa01.jpg" alt="boa1"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">Boa</span><span class="prd-r-p">2021 Winter SMTOWN : SMCU EXPRESS (BoA)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 16,500</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_boa/boa02.jpg" alt="boa2"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">Boa</span><span class="prd-r-p">The 10th Album - BETTER</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 16,400&nbsp;&nbsp;<del>₩ 20,200</del></span><span class="disprice">19%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_boa/boa03.jpg" alt="boa3"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">Boa</span><span class="prd-r-p">The 9th Album - WOMAN</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 20,200</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_boa/boa04.jpg" alt="boa4"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">Boa</span><span class="prd-r-p">OFFICIAL FANLIGHT</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 35,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_boa/boa05.jpg" alt="boa5"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">Boa</span><span class="prd-r-p">A4 PHOTO - ONE SHOT, TWO SHOT</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_boa/boa06.jpg" alt="boa6"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">Boa</span><span class="prd-r-p">POST CARD SET - ONE SHOT, TWO SHOT</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 12,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_boa/boa07.jpg" alt="boa7"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">Boa</span><span class="prd-r-p">4X6 PHOTO SET - KISS MY LIPS</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 3,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_boa/boa08.jpg" alt="boa8"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">Boa</span><span class="prd-r-p">HOLOGRAM PHOTO CARD SET - BETTER</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">SOLD OUT</span><!-- <span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span> --></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_boa/boa09.jpg" alt="boa9"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">Boa</span><span class="prd-r-p">PVC NAME TAG</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">SOLD OUT</span><!-- <span class="disprice">19%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span> --></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="prdTab02" class="prd-tab" tabindex="4">
+                                <ul>
+                                    <li><div class="prd-cir-area"><div class="prd-cir"><a href="#">TVXQ!<img src="./img/btn/celeb_listmain_arrow.png" alt="product arrow"></a></div></div></li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_tvxq/tvxq01.jpg" alt="tvxq1"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">MAX CHANGMIN</span><span class="prd-r-p">The 2nd Mini Album - Devil (Red Ver.)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 19,300&nbsp;&nbsp;<del>₩ 23,800</del></span><span class="disprice">19%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_tvxq/tvxq02.jpg" alt="tvxq2"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">MAX CHANGMIN</span><span class="prd-r-p">The 2nd Mini Album - Devil (Black Ver.)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 19,300&nbsp;&nbsp;<del>₩ 23,800</del></span><span class="disprice">19%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_tvxq/tvxq03.jpg" alt="tvxq3"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">TVXQ!</span><span class="prd-r-p">15th Anniversary Special Album - New Chapter #2 : The Truth of Love (Random cover ver.)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 8,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_tvxq/tvxq04.jpg" alt="tvxq4"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">TVXQ!</span><span class="prd-r-p">OFFICIAL FANLIGHT</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 35,000&nbsp;&nbsp;<del>₩ 18,500</del></span><span class="disprice">19%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_tvxq/tvxq05.jpg" alt="tvxq5"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">TVXQ!</span><span class="prd-r-p">SEASON'S GREETINGS 2022</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">SOLD OUT</span><!-- <span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span> --></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_tvxq/tvxq06.jpg" alt="tvxq6"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">MAX CHANGMIN</span><span class="prd-r-p">A4 PHOTO - Devil</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_tvxq/tvxq07.jpg" alt="tvxq7"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">MAX CHANGMIN</span><span class="prd-r-p">POST CARD + HOLOGRAM PHOTO CARD SET - Devil</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 8,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_tvxq/tvxq08.jpg" alt="tvxq8"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">MAX CHANGMIN</span><span class="prd-r-p">4X6 PHOTO SET - Devil</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 4,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_tvxq/tvxq09.jpg" alt="tvxq9"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">MAX CHANGMIN</span><span class="prd-r-p">FILM SET - Devil</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 4,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="prdTab03" class="prd-tab" tabindex="6">
+                                <ul>
+                                    <li><div class="prd-cir-area"><div class="prd-cir"><a href="#">SUPER JUNIOR<img src="./img/btn/celeb_listmain_arrow.png" alt="product arrow"></a></div></div></li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sj/sj01.jpg" alt="sj1"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SUPER JUNIOR</span><span class="prd-r-p">Special Single Album - The Road : Winter for Spring (A Ver.)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 9,600&nbsp;&nbsp;<del>₩ 11,900</del></span><span class="disprice">19%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sj/sj02.jpg" alt="sj2"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SUPER JUNIOR</span><span class="prd-r-p">Special Single Album - The Road : Winter for Spring (B Ver.)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 9,600&nbsp;&nbsp;<del>₩ 11,900</del></span><span class="disprice">19%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sj/sj03.jpg" alt="sj3"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SUPER JUNIOR</span><span class="prd-r-p">Special Single Album - The Road : Winter for Spring (C Ver.)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 9,600&nbsp;&nbsp;<del>₩ 11,900</del></span><span class="disprice">19%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sj/sj04.jpg" alt="sj4"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SUPER JUNIOR</span><span class="prd-r-p">OFFICIAL FANLIGHT</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 36,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sj/sj05.jpg" alt="sj5"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SUPER JUNIOR</span><span class="prd-r-p">SEASON'S GREETINGS 2022</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 38,000&nbsp;&nbsp;<del>₩ 42,000</del></span><span class="disprice">10%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sj/sj06.jpg" alt="sj6"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SUPER JUNIOR</span><span class="prd-r-p">HOLOGRAM PHOTO CARD SET - The Renaissance</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 8,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sj/sj07.jpg" alt="sj7"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SUPER JUNIOR</span><span class="prd-r-p">BINDER INDEX - The Renaissance</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 6,500</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sj/sj08.jpg" alt="sj8"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SUPER JUNIOR</span><span class="prd-r-p">COLOR LEATHER BRACELET</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 29,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sj/sj09.jpg" alt="sj9"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SUPER JUNIOR - D&amp;E</span><span class="prd-r-p">ACRYLIC KEYRING - BAD LIAR</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 16,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="prdTab04" class="prd-tab" tabindex="8">
+                                <ul>
+                                    <li><div class="prd-cir-area"><div class="prd-cir"><a href="#">GIRLS’ GENERATION<img src="./img/btn/celeb_listmain_arrow.png" alt="product arrow"></a></div></div></li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_gg/gg01.jpg" alt="gg1"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">TAEYEON</span><span class="prd-r-p">The 3rd Album - INVU (ENVY Ver.)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 35,600&nbsp;&nbsp;<del>₩ 44,000</del></span><span class="disprice">19%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_gg/gg02.jpg" alt="gg2"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">TAEYEON</span><span class="prd-r-p">The 3rd Album - INVU (TAPE Ver.)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">SOLD OUT</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_gg/gg03.jpg" alt="gg3"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">TAEYEON</span><span class="prd-r-p">The 3rd Album - INVU (BLUE / ORANGE Ver.)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">SOLD OUT</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_gg/gg04.jpg" alt="gg4"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">GIRLS’ GENERATION</span><span class="prd-r-p">OFFICIAL FANLIGHT</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 35,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_gg/gg05.jpg" alt="gg5"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">GIRLS’ GENERATION</span><span class="prd-r-p">SEASON'S GREETINGS 2022</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 38,000&nbsp;&nbsp;<del>₩ 42,800</del></span><span class="disprice">10%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_gg/gg06.jpg" alt="gg6"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">TAEYEON</span><span class="prd-r-p">[HEAL ME] MOOD FRAGRANCE - INVU : THE EXHIBIT</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 36,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_gg/gg07.jpg" alt="gg7"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">TAEYEON</span><span class="prd-r-p">[HEAL ME] FRAGRANCE TABLET - INVU : THE EXHIBIT</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 36,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_gg/gg08.jpg" alt="gg8"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">TAEYEON</span><span class="prd-r-p">[HEAL ME] FRAGRANCE SET - INVU : THE EXHIBIT</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 70,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_gg/gg09.jpg" alt="gg9"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">TAEYEON</span><span class="prd-r-p">A4 PHOTO - 사계</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="prdTab05" class="prd-tab" tabindex="10">
+                                <ul>
+                                    <li><div class="prd-cir-area"><div class="prd-cir"><a href="#">SHINee<img src="./img/btn/celeb_listmain_arrow.png" alt="product arrow"></a></div></div></li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_shinee/shinee01.jpg" alt="shinee1"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">TAEMIN</span><span class="prd-r-p">The 2nd Mini Album - WANT  (Kihno Kit)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 16,400&nbsp;&nbsp;<del>₩ 20,200</del></span><span class="disprice">19%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_shinee/shinee02.jpg" alt="shinee2"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SHINee</span><span class="prd-r-p">OFFICIAL FANLIGHT</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 35,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_shinee/shinee03.jpg" alt="shinee3"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SHINee</span><span class="prd-r-p">SEASON'S GREETINGS 2022</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 38,000&nbsp;&nbsp;<del>₩ 42,800</del></span><span class="disprice">10%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_shinee/shinee04.jpg" alt="shinee4"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">TAEMIN</span><span class="prd-r-p">POSTCARD BOOK - Advice</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 9,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_shinee/shinee05.jpg" alt="shinee5"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">TAEMIN</span><span class="prd-r-p">4X6 PHOTO SET - Advice</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 3,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_shinee/shinee06.jpg" alt="shinee6"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">TAEMIN</span><span class="prd-r-p">FILM SET - Advice</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 4,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_shinee/shinee07.jpg" alt="shinee7"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">KEY</span><span class="prd-r-p">A4 PHOTO - BAD LOVE</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_shinee/shinee08.jpg" alt="shinee8"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SHINee</span><span class="prd-r-p">A4 PHOTO - Don't Call Me</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_shinee/shinee09.jpg" alt="shinee9"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SHINee</span><span class="prd-r-p">A4 PHOTO - Atlantis</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="prdTab06" class="prd-tab" tabindex="12">
+                                <ul>
+                                    <li><div class="prd-cir-area"><div class="prd-cir"><a href="#">f(x)<img src="./img/btn/celeb_listmain_arrow.png" alt="product arrow"></a></div></div></li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_fx/fx01.jpg" alt="fx1"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">f(x)</span><span class="prd-r-p">ARTIST MOOD LIGHT</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 33,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_fx/fx02.jpg" alt="fx2"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">f(x)</span><span class="prd-r-p">&amp;STORE NOTE</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">SOLD OUT</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_fx/fx03.jpg" alt="fx3"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">f(x)</span><span class="prd-r-p">&amp;STORE PENCIL</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 8,900</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_fx/fx04.jpg" alt="fx4"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">f(x)</span><span class="prd-r-p">TICKET BOTTLE</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">SOLD OUT</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_fx/fx05.jpg" alt="fx5"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">f(x)</span><span class="prd-r-p">COLOR LEATHER WALLET</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">SOLD OUT</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_fx/fx06.jpg" alt="fx6"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">f(x)</span><span class="prd-r-p">ACRYLIC KEYRING</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">SOLD OUT</span></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content-s02-prd-b">
+                            <div id="prdTab07" class="prd-tab" tabindex="14">
+                                <ul>
+                                    <li><div class="prd-cir-area"><div class="prd-cir"><a href="#">EXO<img src="./img/btn/celeb_listmain_arrow.png" alt="product arrow"></a></div></div></li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_exo/exo01.jpg" alt="exo1"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">KAI</span><span class="prd-r-p">The 1st Mini Album - &#039;KAI (开)&#039;(FLIP BOOK Ver.)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 19,300&nbsp;&nbsp;<del>₩ 23,800</del></span><span class="disprice">19%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_exo/exo02.jpg" alt="exo2"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">BAEKHYUN</span><span class="prd-r-p">The 1st Mini Album &#039;City Lights&#039; (Kihno)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 17,800&nbsp;&nbsp;<del>₩ 22,000</del></span><span class="disprice">19%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_exo/exo03.jpg" alt="exo3"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">EXO</span><span class="prd-r-p">OFFICIAL FANLIGHT VER.3.0</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 36,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_exo/exo04.jpg" alt="exo4"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">EXO</span><span class="prd-r-p">FANLIGHT ACCESSORY</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 9,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_exo/exo05.jpg" alt="exo5"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">EXO</span><span class="prd-r-p">SEASON&#039;S GREETINGS 2022</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 38,000&nbsp;&nbsp;<del>₩ 42,000</del></span><span class="disprice">10%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_exo/exo06.jpg" alt="exo6"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">KAI</span><span class="prd-r-p">FILM SET - Peaches</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 4,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_exo/exo07.jpg" alt="exo7"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">D.O.</span><span class="prd-r-p">3CUT FILM+PHOTO SET - 공감</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 25,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_exo/exo08.jpg" alt="exo8"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">EXO</span><span class="prd-r-p">A4 PHOTO - DON’T MESS UP MY TEMPO</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_exo/exo09.jpg" alt="exo9"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">EXO</span><span class="prd-r-p">BINDER INDEX  - OBSESSION</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 6,500</span></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="prdTab08" class="prd-tab" tabindex="16">
+                                <ul>
+                                    <li><div class="prd-cir-area"><div class="prd-cir"><a href="#">RED VELVET<img src="./img/btn/celeb_listmain_arrow.png" alt="product arrow"></a></div></div></li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_rv/rv01.jpg" alt="rv1"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">JOY</span><span class="prd-r-p">SPECIAL Album - 안녕 (Hello) (Case Ver.)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">SOLD OUT</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_rv/rv02.jpg" alt="rv2"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">WENDY</span><span class="prd-r-p">The 1st Mini Album - Like Water (Case Ver.)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 19,300&nbsp;&nbsp;<del>₩ 23,800</del></span><span class="disprice">19%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_rv/rv03.jpg" alt="rv3"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">Red Velvet</span><span class="prd-r-p">OFFICIAL FANLIGHT</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 35,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_rv/rv04.jpg" alt="rv4"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">Red Velvet</span><span class="prd-r-p">SEASON&#039;S GREETINGS 2022</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 38,000&nbsp;&nbsp;<del>₩ 42,000</del></span><span class="disprice">10%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_rv/rv05.jpg" alt="rv5"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">Red Velvet</span><span class="prd-r-p">POSTCARD BOOK - ‘The ReVe Festival&#039; Day 1</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_rv/rv06.jpg" alt="rv6"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">Red Velvet</span><span class="prd-r-p">A4 PHOTO - Queendom</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_rv/rv07.jpg" alt="rv7"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">Red Velvet</span><span class="prd-r-p">DAILY STICKER SET - Time To Love</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 13,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_rv/rv08.jpg" alt="rv8"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">Red Velvet</span><span class="prd-r-p">A4 PHOTO - Summer Magic</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_rv/rv09.jpg" alt="rv9"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">Red Velvet</span><span class="prd-r-p">PAPER FRAME</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 13,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="prdTab09" class="prd-tab" tabindex="18">
+                                <ul>
+                                    <li><div class="prd-cir-area"><div class="prd-cir"><a href="./celeb.html">NCT<img src="./img/btn/celeb_listmain_arrow.png" alt="product arrow"></a></div></div></li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_nct/U_4X6PHOTO.jpg" alt="nct1"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">NCT U</span><span class="prd-r-p">4X6 PHOTO + PHOTO CARD SET - Universe</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 7,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_nct/U_A4PHOTO.jpg" alt="nct2"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">NCT U</span><span class="prd-r-p">A4 PHOTO - Universe</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_nct/NCT_IDCARD.jpg" alt="nct3"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">NCT</span><span class="prd-r-p">ID CARD + PHOTO CARD SET (RANDOM) - Universe</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 8,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_nct/NCT_HOLOGRAM.jpg" alt="nct4"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">NCT</span><span class="prd-r-p">POSTCARD + HOLOGRAM PHOTO CARD SET - Universe</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 8,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_nct/NCT_A4PHOTO.jpg" alt="nct5"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">NCT</span><span class="prd-r-p">A4 PHOTO - Universe</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_nct/U_TRADINGCARD.jpg" alt="nct6"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">NCT U</span><span class="prd-r-p">TRADING CARD SET (RANDOM) - Universe</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 6,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_nct/NCT_BINDER.jpg" alt="nct7"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">NCT</span><span class="prd-r-p">BINDER + PHOTO CARD SET - Universe</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 25,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_nct/NCT_BINDERINDEXSET.jpg" alt="nct8"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">NCT</span><span class="prd-r-p">BINDER INDEX SET - Universe</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 10,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_nct/NCT_Universe.jpg" alt="nct9"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">NCT</span><span class="prd-r-p">The 3rd Album - Universe (Photobook ver.)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 19,300&nbsp;&nbsp;<del>₩ 23,800</del></span><span class="disprice">19%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="prdTab10" class="prd-tab" tabindex="20">
+                                <ul>
+                                    <li><div class="prd-cir-area"><div class="prd-cir"><a href="#">WayV<img src="./img/btn/celeb_listmain_arrow.png" alt="product arrow"></a></div></div></li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_wv/wv01.jpg" alt="wv1"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">WayV</span><span class="prd-r-p">The 3rd Mini Album - Kick Back (Random cover ver.)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 16,400&nbsp;&nbsp;<del>₩ 20,200</del></span><span class="disprice">19%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_wv/wv02.jpg" alt="wv2"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">WayV</span><span class="prd-r-p">OFFICIAL FANLIGHT</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 38,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_wv/wv03.jpg" alt="wv3"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">WayV</span><span class="prd-r-p">SEASON&#039;S GREETINGS 2022</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 38,000&nbsp;&nbsp;<del>₩ 42,000</del></span><span class="disprice">10%<a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_wv/wv04.jpg" alt="wv4"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">WayV</span><span class="prd-r-p">A4 PHOTO - Kick Back</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_wv/wv05.jpg" alt="wv5"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">WayV</span><span class="prd-r-p">FILM SET - Kick Back</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 4,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_wv/wv06.jpg" alt="wv6"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">WayV</span><span class="prd-r-p">AR PHOTO CARD + PHOTO FRAME SET - Kick Back</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 15,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_wv/wv07.jpg" alt="wv7"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">WayV</span><span class="prd-r-p">STICKER PACK - UNIT</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 10,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_wv/wv08.jpg" alt="wv8"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">WayV</span><span class="prd-r-p">POSTCARD + HOLOGRAM PHOTO CARD SET - UNIT</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 8,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_wv/wv09.jpg" alt="wv9"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">WayV</span><span class="prd-r-p">A4 POP-UP CARD - Turn Back Time</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 10,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="prdTab11" class="prd-tab" tabindex="22">
+                                <ul>
+                                    <li><div class="prd-cir-area"><div class="prd-cir"><a href="#">SuperM<img src="./img/btn/celeb_listmain_arrow_bl.png" alt="product arrow"></a></div></div></li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sm/sm01.jpg" alt="sm1"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SuperM</span><span class="prd-r-p">The 1st Mini Album - SuperM (Member ver.)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 18,300</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sm/sm02.jpg" alt="sm2"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SuperM</span><span class="prd-r-p">OFFICIAL FANLIGHT</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 35,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sm/sm03.jpg" alt="sm3"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SuperM</span><span class="prd-r-p">AR TEE - SuperM</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 35,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sm/sm04.jpg" alt="sm4"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SuperM</span><span class="prd-r-p">AIRPODS PRO CASE + KEYRING - Super One</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 15,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sm/sm05.jpg" alt="sm5"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SuperM</span><span class="prd-r-p">PVC PHOTO BACKPACK</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 72,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sm/sm06.jpg" alt="sm6"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SuperM</span><span class="prd-r-p">LUGGAGE STICKER SET - 100</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 10,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sm/sm07.jpg" alt="sm7"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SuperM</span><span class="prd-r-p">[&amp;STORE 단독]A4 PHOTO - Tiger Inside</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sm/sm08.jpg" alt="sm8"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SuperM</span><span class="prd-r-p">POP-UP FABRIC BRACELET - SuperM</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 2,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_sm/sm09.jpg" alt="sm9"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">SuperM</span><span class="prd-r-p">CARTOON BADGE - 100</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 10,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="prdTab12" class="prd-tab" tabindex="24">
+                                <ul>
+                                    <li><div class="prd-cir-area"><div class="prd-cir"><a href="#">aespa<img src="./img/btn/celeb_listmain_arrow.png" alt="product arrow"></a></div></div></li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_ae/ae01.jpg" alt="ae1"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">aespa</span><span class="prd-r-p">The 1st Mini Album - Savage (SYNK DIVE Ver.)</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">SOLD OUT</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_ae/ae02.jpg" alt="ae2"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">aespa</span><span class="prd-r-p">SEASON&#039;S GREETINGS 2022</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">SOLD OUT</span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_ae/ae03.jpg" alt="ae3"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">aespa</span><span class="prd-r-p">A4 PHOTO - Savage</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 11,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_ae/ae04.jpg" alt="ae4"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">aespa</span><span class="prd-r-p">HOODIE A Ver. - SPECIAL MD</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 39,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_ae/ae05.jpg" alt="ae5"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">aespa</span><span class="prd-r-p">T-SHIRT - SPECIAL MD</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 38,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_ae/ae06.jpg" alt="ae6"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">aespa</span><span class="prd-r-p">SLIT SWEATSHIRT - SPECIAL MD</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 45,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_ae/ae07.jpg" alt="ae7"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">aespa</span><span class="prd-r-p">W - 2021-12 C</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 7,000</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_ae/ae08.jpg" alt="ae8"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">aespa</span><span class="prd-r-p">Harper&#039;s BAZAAR - 2022-01 D</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">₩ 6,500</span><span class="disprice"><a href="#"><img src="./img/btn/btn_cart.png" alt="product cart"></a></span></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./img/celeb_ae/ae09.jpg" alt="ae9"></a>
+                                        <div class="prd-rect">
+                                            <div class="prd-rect-title"><a href="#"><span class="prd-r-a">aespa</span><span class="prd-r-p">Harper&#039;s BAZAAR - 2022-01 E</span></a></div>
+                                            <div class="prd-rect-price cf"><span class="price">SOLD OUT</span></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-s03 cf">
+                    <h3>New Issue</h3>
+                    <div class="swiper mySwiper s03-slides">
+                        <div class="swiper-wrapper s03-slide-wrapper">
+                            <div class="swiper-slide s03-slide"><a href="#"><img src="./img/new_issue/newissue01.jpg" alt="newissue01"><div class="c3s-text">CELEB &P!CK<span>SMCU EXPRESS BEHIDN ITEMS</span></div></a></div>
+                            <div class="swiper-slide s03-slide"><a href="#"><img src="./img/new_issue/newissue02.jpg" alt="newissue02"><div class="c3s-text">CELEB &P!CK<span>Beyond LIVE KAI Behind items</span></div></a></div>
+                            <div class="swiper-slide s03-slide"><a href="#"><img src="./img/new_issue/newissue03.jpg" alt="newissue03"><div class="c3s-text">CELEB &P!CK<span>KEY:FACE</span></div></a></div>
+                            <div class="swiper-slide s03-slide"><a href="#"><img src="./img/new_issue/newissue04.jpg" alt="newissue04"><div class="c3s-text">CELEB &P!CK<span>Beyond LIVE KEY Behind items</span></div></a></div>
+                            <div class="swiper-slide s03-slide"><a href="#"><img src="./img/new_issue/newissue05.jpg" alt="newissue05"><div class="c3s-text">CELEB &P!CK<span>ANEMONE X XIAOJUN & YANGYANG</span></div></a></div>
+                            <div class="swiper-slide s03-slide"><a href="#"><img src="./img/new_issue/newissue06.jpg" alt="newissue06"><div class="c3s-text">CELEB &P!CK<span>NUGU with SM ARTIST</span></div></a></div>
+                            <div class="swiper-slide s03-slide"><a href="#"><img src="./img/new_issue/newissue07.jpg" alt="newissue07"><div class="c3s-text">CELEB &P!CK<span>ANEMONE X LEETEUK & EUNHYUK</span></div></a></div>
+                            <div class="swiper-slide s03-slide"><a href="#"><img src="./img/new_issue/newissue08.jpg" alt="newissue08"><div class="c3s-text">CELEB &P!CK<span>MIRAE ASSET X SMTOWN &STORE</span></div></a></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-button-next s03-arrow-right"></div>
+                    <div class="swiper-button-prev s03-arrow-left"></div>
+                </div>
+                <div class="content-s04 cf">
+                    <h4>New Album</h4>
+                    <div class="swiper mySwiper s04-slides">
+                        <div class="swiper-wrapper s04-slide-wrapper">
+                            <div class="swiper-slide s04-slide">
+                                <a href="#">
+                                    <div class="content-s04-album">
+                                        <div class="album-cover">
+                                            <img src="./img/new_album/album_nctdream_cover.jpg" alt="hellofuture">
+                                        </div>
+                                        <div class="album-cd">
+                                            <img src="./img/new_album/album_nctdream_cd.png" alt="hellofuture">
+                                        </div>
+                                        <div class="shadow"></div>
+                                    </div>
+                                    <div class="text">
+                                        NCT DREAM 1st Album Repackage
+                                        <span>Hello Future</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide s04-slide">
+                                <a href="#">
+                                    <div class="content-s04-album">
+                                        <div class="album-cover">
+                                            <img src="./img/new_album/album_nctu_cover.jpg" alt="Universe">
+                                        </div>
+                                        <div class="album-cd">
+                                            <img src="./img/new_album/album_nctu_cd.png" alt="Universe">
+                                        </div>
+                                        <div class="shadow"></div>
+                                    </div>
+                                    <div class="text">
+                                        NCT The 3rd Album
+                                        <span>Universe</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide s04-slide">
+                                <a href="#">
+                                    <div class="content-s04-album">
+                                        <div class="album-cover">
+                                            <img src="./img/new_album/album_sticker_cover.jpg" alt="sticker">
+                                        </div>
+                                        <div class="album-cd">
+                                            <img src="./img/new_album/album_sticker_cd.png" alt="sticker">
+                                        </div>
+                                        <div class="shadow"></div>
+                                    </div>
+                                    <div class="text">
+                                        NCT 127 The 3rd Album
+                                        <span>Sticker</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide s04-slide">
+                                <a href="#">
+                                    <div class="content-s04-album">
+                                        <div class="album-cover">
+                                            <img src="./img/new_album/album_favorite_cover.jpg" alt="favorite">
+                                        </div>
+                                        <div class="album-cd">
+                                            <img src="./img/new_album/album_favorite_cd.png" alt="favorite">
+                                        </div>
+                                        <div class="shadow"></div>
+                                    </div>
+                                    <div class="text">
+                                        NCT 127 The 3rd Album Repackage
+                                        <span>Favorite</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide s04-slide">
+                                <a href="#">
+                                    <div class="content-s04-album">
+                                        <div class="album-cover">
+                                            <img src="./img/new_album/album_ae_cover.jpg" alt="Savage">
+                                        </div>
+                                        <div class="album-cd">
+                                            <img src="./img/new_album/album_ae_cd.png" alt="Savage">
+                                        </div>
+                                        <div class="shadow"></div>
+                                    </div>
+                                    <div class="text">
+                                        aespa The 1st Mini Album
+                                        <span>Savage</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide s04-slide">
+                                <a href="#">
+                                    <div class="content-s04-album">
+                                        <div class="album-cover">
+                                            <img src="./img/new_album/album_rv_cover.jpg" alt="queendom">
+                                        </div>
+                                        <div class="album-cd">
+                                            <img src="./img/new_album/album_rv_cd.png" alt="queendom">
+                                        </div>
+                                        <div class="shadow"></div>
+                                    </div>
+                                    <div class="text">
+                                        Red Velvet The 6th Mini Album
+                                        <span>Queendom</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide s04-slide">
+                                <a href="#">
+                                    <div class="content-s04-album">
+                                        <div class="album-cover">
+                                            <img src="./img/new_album/album_invu_cover.jpg" alt="invu">
+                                        </div>
+                                        <div class="album-cd">
+                                            <img src="./img/new_album/album_invu_cd.png" alt="invu">
+                                        </div>
+                                        <div class="shadow"></div>
+                                    </div>
+                                    <div class="text">
+                                        TAEYEON The 3rd Album
+                                        <span>INVU</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide s04-slide">
+                                <a href="#">
+                                    <div class="content-s04-album">
+                                        <div class="album-cover">
+                                            <img src="./img/new_album/album_kai_cover.jpg" alt="peaches">
+                                        </div>
+                                        <div class="album-cd">
+                                            <img src="./img/new_album/album_kai_cd.png" alt="peaches">
+                                        </div>
+                                        <div class="shadow"></div>
+                                    </div>
+                                    <div class="text">
+                                        KAI The 2nd Mini Album
+                                        <span>Peaches</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide s04-slide">
+                                <a href="#">
+                                    <div class="content-s04-album">
+                                        <div class="album-cover">
+                                            <img src="./img/new_album/album_key_cover.jpg" alt="badlove">
+                                        </div>
+                                        <div class="album-cd">
+                                            <img src="./img/new_album/album_key_cd.png" alt="badlove">
+                                        </div>
+                                        <div class="shadow"></div>
+                                    </div>
+                                    <div class="text">
+                                        KEY The 1st Mini Album
+                                        <span>BAD LOVE</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="footer"></div>
+        <div id="footer">
+            <div id="footerInner">
+                <div class="footer-s01 cf">
+                    <ul class="footer-s01-l">
+                        <li><a href="#">제휴문의</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                    </ul>
+                    <ul class="footer-s01-r">
+                        <li><a href="#">이용안내</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">비회원 문의</a></li>
+                        <li><a href="#">주문조회</a></li>
+                        <li><a href="#">FAMILY SITE<img src="./img/footer/footer_family.gif" alt="family btn"></a></li>
+                    </ul>
+                </div>
+                <div class="footer-s02">
+                    <img src="./img/footer/footer_SM_Logo.svg" alt="smlogo">
+                </div>
+                <div class="footer-s03">
+                    회사명<span>(주)에스엠브랜드마케팅</span>
+                    대표자명<span>이성수</span>
+                    주소<span>04769 서울특별시 성동구 왕십리로 83-21 (성수동1가) 아크로서울포레스트 6층</span>
+                    대표번호<span>1661-6110</span>
+                    <br>
+                    사업자등록번호<span>211-88-17109<a href="#"><img src="./img/footer/footer_Popup.svg" alt="popup btn"></a></span>
+                    통신판매업 신고번호<span>제 2016-서울강남-00472 호</span> 개인정보보호책임자<span>김병수 / responsibility@smtown.com</span>
+                    <br>
+                    호스팅서비스 제공자<span>카페24(주)</span>
+                    구매안전서비스<span>이용확인<a href="#"><img src="./img/footer/footer_Popup.svg" alt="popup btn"></a></span>
+                    <div class="footer-s03-b">
+                        SMTOWN &STORE의 모든 콘텐츠는 저작권의 보호를 받고 있습니다.
+                    </div>
+                </div>
+                <div class="footer-s04 cf">
+                    <div class="footer-s04-l">
+                        <a href="#"><img src="./img/footer/footer_Facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="./img/footer/footer_Twitter.svg" alt="twitter"></a>
+                        <a href="#"><img src="./img/footer/footer_Youtube.svg" alt="youtube"></a>
+                        <a href="#"><img src="./img/footer/footer_Instagram.svg" alt="instagram"></a>
+                        <span></span>
+                        <a href="#"><img src="./img/footer/footer_Appstore.svg" alt="appstore"></a>
+                    </div>
+                    <div class="footer-s04-r">
+                        <a href="#"><img src="./img/footer/footer_sm.png" alt="sm"></a>
+                        <a href="#"><img src="./img/footer/footer_gaon.png" alt="gaon"></a>
+                        <a href="#"><img src="./img/footer/footer_hanteo.png" alt="hanteo"></a>
+                        <a href="#"><img src="./img/footer/footer_ftc.png" alt="ftc"></a>
+                        <a href="#"><img src="./img/footer/footer_ksnet.png" alt="ksnet"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

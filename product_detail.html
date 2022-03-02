@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMTOWN &amp;STORE</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/product_detail_style.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/product_detail_script.js" defer></script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div id="headerInner">
+                <div class="header-gnb">
+                    <ul>
+                        <li><a href="./login.html">LOGIN</a></li>
+                        <li><a href="#">JOIN</a></li>
+                        <li class="gnb-lan"><a href="#">KOR</a>
+                            <ul>
+                                <li><a href="#">ENG</a></li>
+                                <li><a href="#">JPN</a></li>
+                                <li><a href="#">CHN</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-nav">
+                    <ul>
+                        <li class="nav-celeb"><a href="./celeb.html">CELEB</a>
+                            <div class="celeb-flip">
+                                <ul>
+                                    <li><a href="#">BoA<span></span></a></li>
+                                    <li><a href="#">TVXQ!<span></span></a></li>
+                                    <li><a href="#">SUPER JUNIOR<span></span></a></li>
+                                    <li><a href="#">GIRLS’ GENERATION<span></span></a></li>
+                                    <li><a href="#">SHINee<span></span></a></li>
+                                    <li><a href="#">f(x)<span></span></a></li>
+                                    <li><a href="#">EXO<span></span></a></li>
+                                    <li><a href="#">RED VELVET<span></span></a></li>
+                                    <li><a href="./celeb.html">NCT<span></span></a></li>
+                                    <li><a href="#">WayV<span></span></a></li>
+                                    <li><a href="#">SuperM<span></span></a></li>
+                                    <li><a href="#">aespa<span></span></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-product"><a href="./product.html">PRODUCT</a>
+                            <div class="product-flip">
+                                <ul>
+                                    <li>
+                                        <dl>
+                                            <dt><a href="#">MUSIC</a></dt>
+                                            <dd><a href="#">CD<span></span></a></dd>
+                                            <dd><a href="#">DVD<span></span></a></dd>
+                                            <dd><a href="#">etc.<span></span></a></dd>
+                                            <dd>&nbsp;</dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">PHOTO</a></dt>
+                                            <dd><a href="#">Printed<span></span></a></dd>
+                                            <dd><a href="#">Photo Book<span></span></a></dd>
+                                            <dd>&nbsp;</dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">CONCERT</a></dt>
+                                            <dd><a href="#">Official Fanlight<span></span></a></dd>
+                                            <dd><a href="#">Concert Goods<span></span></a></dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <dl>
+                                            <dt><a href="#">LIVING</a></dt>
+                                            <dd><a href="#">Home<span></span></a></dd>
+                                            <dd><a href="#">Kitchen<span></span></a></dd>
+                                            <dd><a href="#">F&B<span></span></a></dd>
+                                            <dd><a href="#">Tech<span></span></a></dd>
+                                            <dd><a href="#">Book<span></span></a></dd>
+                                            <dd><a href="#">Pet<span></span></a></dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <dl>
+                                            <dt><a href="#">BEAUTY</a></dt>
+                                            <dd><a href="#">Skin Care<span></span></a></dd>
+                                            <dd><a href="#">Make Up<span></span></a></dd>
+                                            <dd><a href="#">Cleansing<span></span></a></dd>
+                                            <dd><a href="#">Body & Hair<span></span></a></dd>
+                                            <dd><a href="#">Pack & Masks<span></span></a></dd>
+                                            <dd><a href="#">Perfume<span></span></a></dd>
+                                            <dd><a href="#">Tool<span></span></a></dd>
+                                            <dd><a href="#">Men’s<span></span></a></dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <dl>
+                                            <dt><a href="#">STATIONERY</a></dt>
+                                            <dd><a href="#">Note<span></span></a></dd>
+                                            <dd><a href="#">Office<span></span></a></dd>
+                                            <dd><a href="#">Pen<span></span></a></dd>
+                                            <dd><a href="#">Deco<span></span></a></dd>
+                                            <dd><a href="#">Binder<span></span></a></dd>
+                                            <dd><a href="#">Toy<span></span></a></dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <dl>
+                                            <dt><a href="#">FASHION</a></dt>
+                                            <dd><a href="#">Clothing<span></span></a></dd>
+                                            <dd><a href="#">Acc<span></span></a></dd>
+                                            <dd><a href="#">Jewelry<span></span></a></dd>
+                                            <dd>&nbsp;</dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">CUSTOMIZING</a></dt>
+                                            <dd><a href="#">Phone Case<span></span></a></dd>
+                                            <dd><a href="#">Fashion<span></span></a></dd>
+                                            <dd><a href="#">Acc<span></span></a></dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="./pick.html">&P!CK</a></li>
+                        <li><a href="./event.html">EVENT</a></li>
+                        <li><a href="./meta.html">META</a></li>
+                    </ul>
+                    <div class="logo"><a href="./index.html"><img src="./img/header/O/Logo_Default.svg" alt="logo"></a>
+                    </div>
+                    <div class="member">
+                        <ul>
+                            <li class="mypage"><a href="#"><img src="./img/header/O/M_My.svg" alt="mypage"></a></li>
+                            <li class="search"><a href="#"><img src="./img/header/O/M_Search.svg" alt="search"></a></li>
+                            <li class="cart"><a href="#"><img src="./img/header/O/M_Cart.svg" alt="cart"></a></li>
+                            <li class="collect"><a href="#"><img src="./img/header/O/M_Collection.svg" alt="collect"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!-- header -->
+        <div id="main">
+            <div id="content">
+                <div class="content-top">
+                    <div class="content-t-inner">
+                        <div class="img-area"><img src="./img/product_detail/cover.jpg" alt="weboomcover"></div>
+                        <div class="info-area">
+                            <div class="info-fix">
+                                <div class="info-s01">
+                                    <div class="info-s01-title">
+                                        <span class="art">NCT DREAM</span>
+                                        <span class="prd">3rd Mini Album 'We Boom' (Random cover ver.)</span>
+                                    </div>
+                                    <div class="info-s01-price">
+                                        <span class="price">₩&nbsp; 16,500</span>
+                                        <a href="#"><img src="./img/product_detail/share.png" alt="share"></a>
+                                    </div>
+                                </div>
+                                <div class="info-s02">
+                                    <span class="info-left">적립금</span>0.50% (82 P)
+                                    <ul>
+                                        <li><span class="info-left">회원등급별</span>PINK SILVER 기본적립금 +0.2%</li>
+                                        <li><span class="info-left">추가적립금</span>PINK GOLD 기본적립금 +0.5%</li>
+                                    </ul>
+                                </div>
+                                <div class="info-s03">
+                                    *단순변심에 의한 교환/환불 불가 <br>
+                                    *포스터 소진/포스터 마감
+                                </div>
+                                <div class="info-s04">
+                                    <div class="info-s04-box">
+                                        <span class="prd">3rd Mini Album 'We Boom' (Random cover ver.)</span>
+                                        <div class="box-b cf">
+                                            <span class="count">
+                                                <a href="#"><img src="./img/product_detail/min_btn.png" alt="min btn"></a>
+                                                <input id="count" name="count" value="0" type="text">
+                                                <a href="#"><img src="./img/product_detail/plus_btn.png" alt="plus btn"></a>
+                                            </span>
+                                            <span class="price">₩16,500</span>
+                                        </div>
+                                    </div>
+                                    <div class="info-s04-total cf">
+                                        TOTAL
+                                        <span class="total"><strong>₩0</strong>(0개)</span>
+                                    </div>
+                                </div>
+                                <div class="info-s05">
+                                    <span>SOLD OUT</span><span>위시리스트 담기</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-bottom">
+                    <div class="content-detail">
+                        <img src="./img/product_detail/banner.jpg" alt="banner">
+                        <img src="./img/product_detail/shipping.jpg" alt="shipping">
+                        <img src="./img/product_detail/detail.jpg" alt="detail">
+                        <img src="./img/product_detail/return.jpg" alt="return">
+                    </div>
+                    <div class="content-tab cf">
+                        <ul class="tabs">
+                            <li><a href="#info01" class="on" tabindex="1">상품정보</a></li>
+                            <li><a href="#info02" tabindex="3">주문 및 배송 안내</a></li>
+                            <li><a href="#info03" tabindex="5">교환 및 환불 안내</a></li>
+                            <li><a href="#info04" tabindex="7">품질보증기준</a></li>
+                        </ul>
+                        <div class="tab-infos">
+                            <div class="tab-info" id="info01" tabindex="2">
+                                <dl>
+                                    <dt>[상품정보]</dt>
+                                    <dd>- 미디어: Album</dd>
+                                    <dd>- 제작사: ㈜ 드림어스컴퍼니</dd>
+                                    <dd>- 출시국가: 한국</dd>
+                                    <dd>- 레이블: SM ENTERTAINMENT</dd>
+                                    <dd>- 제품코드: SMK 1082 / 8809440339068</dd>
+                                    <dd>- 발매일: 2019-07-29</dd>
+                                    <dd>- 사이즈(cm):  15*15*0.1</dd>
+                                    <dd>- 추가 안내사항: 본 제품은 반품이 불가 합니다. (단, 불량품에 한해 교환 가능)</dd>
+                                    <dd>&nbsp;</dd>
+                                    <dt>[상세정보]</dt>
+                                    <dd>1. 커버 2종(WE Ver. & BOOM Ver.)</dd>
+                                    <dd>2. 북클릿(72p, 버전별 내지 구성 상이)</dd>
+                                    <dd>3. 포스터 2종(WE Ver. & BOOM Ver.)</dd>
+                                    <dd>&nbsp; &nbsp; ※ 포스터 소진/포스터 증정 마감 (지관통이 추가상으로 구성되어 있지 않은 상품은 포스터 증정이 없습니다.)</dd>
+                                    <dd>4. BOOM CARD: 6종 중 랜덤 1종</dd>
+                                    <dd>5. 포토카드: 버전별 6종 중 랜덤 1종</dd>
+                                    <dd>6. CIRCLE CARD: 6종 중 랜덤 1종</dd>
+                                    <dd>&nbsp;</dd>
+                                    <dd>※ SM엔터테인먼트 아티스트의 타이트별 재발매 일정을 아래와 같이 안내 드립니다.</dd>
+                                    <dd>&nbsp; &nbsp; &nbsp;앞으로 SM엔터테인먼트 소속 아티스트의 앨범 재발매가 꾸준히 진행 될 수 있도록 노력하겠으며, 지속적인 관심 부탁드립니다.</dd>
+                                </dl>
+                            </div>
+                            <div class="tab-info" id="info02" tabindex="4">
+                                <dl>
+                                    <dt>[주문 및 배송정보]</dt>
+                                    <dd>[국내 일반 배송]</dd>
+                                    <dd>・배송방식 : SMTOWN &STORE  물류센터 직접배송(우체국택배)</dd>
+                                    <dd>・배송지역 : 전국(일부지역 제외)</dd>
+                                    <dd>・배송비용 : 3,000원 / 주문금액 50,000원 이상 시 무료배송</dd>
+                                    <dd>・배송기간 : 결제 후 3~5일 이내 (영업일 기준)</dd>
+                                    <dd>&nbsp;</dd>
+                                    <dd>- 산간벽지나 도서지방은 별도의 추가금액을 지불하셔야 하는 경우가 있습니다.</dd>
+                                    <dd>- 상품의 재고상황에 따라 배송기간이 다소 지연될 수도 있습니다.</dd>
+                                    <dd>- 물류센터 사정으로 인해 배송이 지연될 수 있습니다.</dd>
+                                    <dd>- 예약판매 상품, 아티스트 케이스 상품 등 당일 배송이 어려운 상품을 함께 구매하는 경우</dd>
+                                    <dd class="red">&nbsp; 모든 상품이 배송 가능한 상태가 되는 시점에 주문하신 상품이 함께 배송됩니다.</dd>
+                                    <dd class="red">&nbsp; (예약판매 상품은 순차배송일 기준, 아티스트 케이스는 주문완료 후 약 2주 소요)</dd>
+                                    <dd>- 기본 배송기간 이상 소요되는 상품이거나 품절된 상품은 개별 연락 드리겠습니다.</dd>
+                                </dl>
+                            </div>
+                            <div class="tab-info" id="info03" tabindex="6">
+                                <dl>
+                                    <dt>[교환 및 환불정보]</dt>
+                                    <dd>[교환∙반품 방법]</dd>
+                                    <dd>&nbsp;</dd>
+                                    <dd>상품 수령일로부터 7일 이내에 교환/반품 사유가 확인 가능한 사진 (상품 전체 혹은 불량 부분 확대 사진)을 첨부하여 주문번호, 상품바코드,  반송사유 등을 cscenter@smtown.com로 이메일 발송 혹은 고객센터로 문의 부탁드립니다.</dd>
+                                    <dd>&nbsp;</dd>
+                                    <dd>・상품교환∙반품단계</dd>
+                                    <dd>- Step1: 교환∙반품 기간확인</dd>
+                                    <dd>- Step2: 마이페이지 또는 1:1문의로 교환∙반품접수</dd>
+                                    <dd>- Step3: CS담당자의 안내 후 7일 이내 지정 반품지 및 지정 반품수단으로 교환, 반품 배송</dd>
+                                    <dd>- Step4: 반품지에 상품 입고 및 검품 후 교환∙반품 진행</dd>
+                                    <dd>- Step5: 교환∙반품 완료</dd>
+                                    <dd>&nbsp;</dd>
+                                    <dd>&nbsp;</dd>
+                                    <dd>&nbsp;</dd>
+                                    <dd>&nbsp;</dd>
+                                    <dt>[교환∙반품시 유의사항]</dt>
+                                    <dd>- 상품의 색상은 모니터 사양에 따라 실제 색상과는 다소 차이가 있을 수 있으며,</dd>
+                                    <dd>&nbsp; 상품 라벨의 위치나 색상은 이미지와 다를 수 있습니다.</dd>
+                                    <dd>- 구성품 누락 및 불량으로 인한 교환/환불을 위해서는 택배 박스 및 상품 개봉(구성품 포함) 영상이 반드시 필요합니다.</dd>
+                                    <dd>&nbsp; 개봉 영상이 없을 경우 교환 및 환불이 어려울 수 있습니다.</dd>
+                                    <dd>- 개봉 영상은 개봉 전 박스의 모든 면이 보이고, 상품 개봉 장면이 온전하게 보이도록 촬영 하셔야 합니다.</dd>
+                                    <dd>- 구성품이 랜덤인 상품의 경우, 교환 진행 시 교환 상품도 랜덤으로 발송됩니다.</dd>
+                                    <dd>- 상품 결함의 경우 5mm 이하의 찍힘 자국과 상품 공정상 발견 될 수 있는 스크래치 및 눌림, 찍힘 자국은 교환 및 반품의 대상이 되지 않습니다.</dd>
+                                    <dd>- 인화류/지류 및 초상 상품의 경우 뒷면, 배경 등 초상 이외의 결함과 공정 과정에서 발생 할 수 있는 스크래치, 눌림 및 찍힘은 교환 및 반품의 대상이 되지 않습니다.</dd>
+                                    <dd>- 모든 상품은 빛 반사가 없는 상태에서 보이는 하자일 경우에만 교환/환불 가능합니다.</dd>
+                                    <dd>- PVC 상품의 경우 소재 특성상 주변환경(온. 습도)의 영향에 따라 형태의 변형 또는 PVC 간 달라붙음 등의 하자가 발생할 수 있으며, 그로인한 교환 및 반품의 대상이 되지 않습니다.</dd>
+                                    <dd>&nbsp;</dd>
+                                    <dd>・교환∙반품 가능기간</dd>
+                                    <dd>- 변심, 배송오류, 파손, 불량 등 상품 결함 : 단순 변심, 상품 하자, 오배송의 경우 수령일로부터 7일 이내까지 1:1문의 또는 CS CENTER로 접수 가능합니다.</dd>
+                                    <dd>&nbsp;</dd>
+                                    <dd>・교환∙반품 불가한 경우</dd>
+                                    <dd>- 상품 수령 후 7일을 초과한 경우</dd>
+                                    <dd>- 상품의 가치가 감소한 경우 (포장지 훼손, 세탁, 상품 얼룩, 향수 냄새, 탈취제 냄새, 증정품 훼손, 구성품 훼손, 사용 흔적 등)</dd>
+                                    <dd>- 구매자의 사용 또는 일부 소비에 의하여 상품의 가치가 현저히 감소한 경우</dd>
+                                    <dd>- 시간의 경과에 의하여 재판매가 곤란할 정도로 상품등의 가치가 현저히 감소한 경우(상품 바코드 제거, 수선 등)</dd>
+                                    <dd>- 주문제작 상품이나 세일 상품, 음반 등 상품 상세페이지에 교환/환불 불가를 공지한 상품의 경우</dd>
+                                    <dd>- 복제가 가능한 상품등의 포장을 훼손한 경우</dd>
+                                    <dd>- 제품의 오배송, 불량 상품이라도 사용 흔적, 훼손 등의 흔적이 있을 경우</dd>
+                                    <dd>- 촬영 또는 해상도 등의 영향으로 고객님의 모니터에서 확인되는 색상과 실제 수령한 상품의 색상 차이가 있을 경우</dd>
+                                    <dd>- 상품의 프린트 혹은 패턴이 있는 경우 상품상세페이지 이미지와 다를 수 있습니다.</dd>
+                                    <dd>- 교환/반품 진행시 이벤트, 프로모션으로 증정된 증정품을 함께 보내주셔야 하며, 누락시 교환/환불이 불가합니다.</dd>
+                                    <dd>- 모든 상품 특성상 재고가 조기 소진될 수 있어 단순변심에 의한 교환은 어려울 수 있으며,</dd>
+                                    <dd>&nbsp; 반품/교환은 전자상거래 등에서의 소비자 보호에 관한 법률에 의거한 규정을 따릅니다.</dd>
+                                    <dd>- SMTOWN &STORE 온라인스토어에서 구매하신 상품은 공식 오프라인 매장에서 교환/환불이 절대 불가합니다.</dd>
+                                    <dd>- 공식 오프라인 매장에서 구매하신 상품은 SMTOWN &STORE 온라인스토어에서 교환/환불이 절대 불가합니다.</dd>
+                                    <dd>- 각 상품별로 교환/환불 정책은 차이가 있을 수 있으며 자세한 사항은 상품정보에서 확인 부탁드립니다.</dd>
+                                    <dd>&nbsp; (자세한 내용은 1:1문의 또는 CS CENTER를 이용해 주시기 바랍니다)</dd>
+                                    <dd>&nbsp;</dd>
+                                    <dd>・교환∙반품 비용</dd>
+                                    <dd>- 변심 : 단순 변심으로 반품을 원할 경우에는 구매자가 왕복배송비 지불</dd>
+                                    <dd>- 배송오류, 파손, 불량 등 상품 결함 : 상품하자, 오배송의 경우에는 판매자가 배송비 지불</dd>
+                                    <dd>&nbsp; (정확한 교환∙반품비용은 1:1문의 또는 CS CENTER를 이용해 주시기 바랍니다)</dd>
+                                    <dd>&nbsp;</dd>
+                                    <dd>&nbsp;</dd>
+                                    <dd>&nbsp;</dd>
+                                    <dd>[미성년자 권리보호안내]</dd>
+                                    <dd>미성년 고객께서 상품을 주문(계약) 하시는 경우, 법정대리인(부모님 등)이 그 주문(계약)에 동의하지 않으면</dd>
+                                    <dd>미성년자 본인 또는 법정대리인(부모님 등)이 그 주문(계약)을 취소하실 수 있습니다.</dd>
+                                </dl>
+                            </div>
+                            <div class="tab-info" id="info04" tabindex="8">
+                                <dl>
+                                    <dt>[품질보증기준]</dt>
+                                    <dd>제품의 품질에 이상이 있을 경우, 반품, 교환, A/S, 환불 , 품질보증 및 피해보상 등에 관한 사항은 소비자분쟁해결기준(공정거래위원회 고시)에 의거하여 처리됩니다.</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div><!-- content-tab -->
+                </div><!-- content-bottom -->
+            </div>
+        </div><!-- main -->
+        <div id="footer">
+            <div id="footerInner">
+                <div class="footer-s01 cf">
+                    <ul class="footer-s01-l">
+                        <li><a href="#">제휴문의</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                    </ul>
+                    <ul class="footer-s01-r">
+                        <li><a href="#">이용안내</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">비회원 문의</a></li>
+                        <li><a href="#">주문조회</a></li>
+                        <li><a href="#">FAMILY SITE<img src="./img/footer/footer_family.gif" alt="family btn"></a></li>
+                    </ul>
+                </div>
+                <div class="footer-s02">
+                    <img src="./img/footer/footer_SM_Logo.svg" alt="smlogo">
+                </div>
+                <div class="footer-s03">
+                    회사명<span>(주)에스엠브랜드마케팅</span>
+                    대표자명<span>이성수</span>
+                    주소<span>04769 서울특별시 성동구 왕십리로 83-21 (성수동1가) 아크로서울포레스트 6층</span>
+                    대표번호<span>1661-6110</span>
+                    <br>
+                    사업자등록번호<span>211-88-17109<a href="#"><img src="./img/footer/footer_Popup.svg" alt="popup btn"></a></span>
+                    통신판매업 신고번호<span>제 2016-서울강남-00472 호</span> 개인정보보호책임자<span>김병수 / responsibility@smtown.com</span>
+                    <br>
+                    호스팅서비스 제공자<span>카페24(주)</span>
+                    구매안전서비스<span>이용확인<a href="#"><img src="./img/footer/footer_Popup.svg" alt="popup btn"></a></span>
+                    <div class="footer-s03-b">
+                        SMTOWN &STORE의 모든 콘텐츠는 저작권의 보호를 받고 있습니다.
+                    </div>
+                </div>
+                <div class="footer-s04 cf">
+                    <div class="footer-s04-l">
+                        <a href="#"><img src="./img/footer/footer_Facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="./img/footer/footer_Twitter.svg" alt="twitter"></a>
+                        <a href="#"><img src="./img/footer/footer_Youtube.svg" alt="youtube"></a>
+                        <a href="#"><img src="./img/footer/footer_Instagram.svg" alt="instagram"></a>
+                        <span></span>
+                        <a href="#"><img src="./img/footer/footer_Appstore.svg" alt="appstore"></a>
+                    </div>
+                    <div class="footer-s04-r">
+                        <a href="#"><img src="./img/footer/footer_sm.png" alt="sm"></a>
+                        <a href="#"><img src="./img/footer/footer_gaon.png" alt="gaon"></a>
+                        <a href="#"><img src="./img/footer/footer_hanteo.png" alt="hanteo"></a>
+                        <a href="#"><img src="./img/footer/footer_ftc.png" alt="ftc"></a>
+                        <a href="#"><img src="./img/footer/footer_ksnet.png" alt="ksnet"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
